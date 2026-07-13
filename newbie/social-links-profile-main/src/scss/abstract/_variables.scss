@@ -1,0 +1,23 @@
+// --------------------------- Font-Face -----------------------------
+@font-face {
+	font-family: '';
+	font-weight: 700;
+	src: local(''), url('../../assets/fonts/') format(woff2),
+		url('../../assets/fonts/') format(woff),
+		url('../../assets/fonts/') format(truetype);
+}
+@font-face {
+	font-family: '';
+	font-weight: 500;
+	src: local(''), url('../../assets/fonts/') format(woff2),
+		url('../../assets/fonts/') format(woff),
+		url('../../assets/fonts/') format(truetype);
+}
+// --------------------------- Family Fonts ---------------------------
+$-a: '';
+$-b: '';
+// --------------------------- Size Fonts -----------------------------
+$mobile: 375px;
+$desktop: 1440px;
+$tablet: 740px;
+// --------------------------- Colors ---------------------------------
