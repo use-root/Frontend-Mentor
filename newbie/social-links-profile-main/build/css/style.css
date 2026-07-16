@@ -55,15 +55,8 @@
   box-sizing: border-box;
   vertical-align: baseline;
 }
-
-*::before,
-*::after {
-  display: block;
-}
-
 img {
   max-width: 100%;
-  width: 100%;
   height: auto;
   display: block;
   object-fit: cover;
